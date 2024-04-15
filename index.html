@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>InultingToDoList</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<!-- New task box -->
+		<div id="addTaskForm">
+			<p id="addTaskFormTitle">- New Task -</p>
+
+			<p id="taskText">Task:</p> <input id="taskInput"/>
+			<p id="deadlineText">Deadline:</p> <input id="deadlineInput"/> <p id="deadlineEndText">Hours from now (decimals are accepted)</p>
+			
+			<button id="doneButton">Done</button> <button id="cancleButton">Cancle</button>
+		</div>
+
+		<!-- general format -->
+		<div id="titles">
+			<p id="title1">Tasks</p>
+			<p id="title2">Deadlines</p>
+			<p id="title3">Helpful Advice</p>
+		</div>
+
+		<div id="titleDivider"></div>
+		<div id="verticalDivider1"></div>
+		<div id="verticalDivider2"></div>
+		
+		<!-- insults -->
+		<div id="insults">
+			<!-- insults go here -->
+
+			<div id="dailyMotivation">
+				<p id="motivationText">Motivation of the day: One day you will get far in life, I hope you stay there.</p>
+			</div>
+		</div>
+
+		<!-- tasks and deadlines -->
+		<svg id="addTask" width="60" height="60">
+			<circle cx="30" cy="30" r="30" fill="#35ccdd"/>
+
+			<rect x="10" y="25" height="10" width="40" fill="#ffffff"/>
+			<rect x="25" y="10" height="40" width="10" fill="#ffffff"/>
+		</svg>
+
+		<div id="taskDeadlinePairs">
+		
+		<!-- task and deadline pairs -->
+		
+		</div>
+		
+		<script src="script.js"></script>
+		
+	</body>
+</html>
